@@ -45,11 +45,10 @@
                                      
                                      if ([request.path isEqualToString:@"/data"])
                                          return [GCDWebServerDataResponse responseWithJSONObject:[NRNetworkInspector sharedInstance].requests];
-                                     return [GCDWebServerDataResponse responseWithHTML:@"<html>\
-                                             <body>\
-                                             Test\
-                                             </body>\
-                                             </html>"];
+                                     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html"];
+                                     NSError *error = nil;
+                                     NSString *html = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:&error];
+                                     return [GCDWebServerDataResponse responseWithHTML:html];
                                      
                                  }];
         
