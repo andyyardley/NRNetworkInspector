@@ -21,19 +21,6 @@
 		A10F676819A209CE00EDEA29 /* NRNetworkInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F676719A209CE00EDEA29 /* NRNetworkInspector.m */; };
 		A10F678419A20A9700EDEA29 /* libNRNetworkInspector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A10F676019A209CE00EDEA29 /* libNRNetworkInspector.a */; };
 		A10F678819A20C0A00EDEA29 /* NSURLConnection+NetworkInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = A10F678719A20C0A00EDEA29 /* NSURLConnection+NetworkInterceptor.m */; };
-		A15206B519A2394A007F87BC /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A152069619A2394A007F87BC /* GCDWebServer.m */; };
-		A15206B619A2394A007F87BC /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A152069819A2394A007F87BC /* GCDWebServerConnection.m */; };
-		A15206B719A2394A007F87BC /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = A152069A19A2394A007F87BC /* GCDWebServerFunctions.m */; };
-		A15206B819A2394A007F87BC /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A152069E19A2394A007F87BC /* GCDWebServerRequest.m */; };
-		A15206B919A2394A007F87BC /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A15206A019A2394A007F87BC /* GCDWebServerResponse.m */; };
-		A15206BA19A2394A007F87BC /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A15206A319A2394A007F87BC /* GCDWebServerDataRequest.m */; };
-		A15206BB19A2394A007F87BC /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A15206A519A2394A007F87BC /* GCDWebServerFileRequest.m */; };
-		A15206BC19A2394A007F87BC /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A15206A719A2394A007F87BC /* GCDWebServerMultiPartFormRequest.m */; };
-		A15206BD19A2394A007F87BC /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A15206A919A2394A007F87BC /* GCDWebServerURLEncodedFormRequest.m */; };
-		A15206BE19A2394A007F87BC /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A15206AC19A2394A007F87BC /* GCDWebServerDataResponse.m */; };
-		A15206BF19A2394A007F87BC /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A15206AE19A2394A007F87BC /* GCDWebServerErrorResponse.m */; };
-		A15206C019A2394A007F87BC /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A15206B019A2394A007F87BC /* GCDWebServerFileResponse.m */; };
-		A15206C119A2394A007F87BC /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A15206B219A2394A007F87BC /* GCDWebServerStreamedResponse.m */; };
 		A15206CA19A23A2E007F87BC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15206C819A23A15007F87BC /* MobileCoreServices.framework */; };
 		A15206CB19A23A32007F87BC /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A15206C219A239F6007F87BC /* libxml2.dylib */; };
 		A15206CC19A23A36007F87BC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A15206C419A239FF007F87BC /* libz.dylib */; };
@@ -42,6 +29,7 @@
 		A15206CF19A23A5C007F87BC /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A15206C219A239F6007F87BC /* libxml2.dylib */; };
 		A15206D019A23A63007F87BC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15206C819A23A15007F87BC /* MobileCoreServices.framework */; };
 		A15206D119A23A6C007F87BC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15206C619A23A10007F87BC /* CFNetwork.framework */; };
+		E9AE261BD6564C65BF952E94 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FEF3DBC4174C8D825D0A93 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,39 +79,12 @@
 		A10F678619A20C0A00EDEA29 /* NSURLConnection+NetworkInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection+NetworkInterceptor.h"; sourceTree = "<group>"; };
 		A10F678719A20C0A00EDEA29 /* NSURLConnection+NetworkInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLConnection+NetworkInterceptor.m"; sourceTree = "<group>"; };
 		A152068619A2189C007F87BC /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		A152069519A2394A007F87BC /* GCDWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServer.h; sourceTree = "<group>"; };
-		A152069619A2394A007F87BC /* GCDWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServer.m; sourceTree = "<group>"; };
-		A152069719A2394A007F87BC /* GCDWebServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerConnection.h; sourceTree = "<group>"; };
-		A152069819A2394A007F87BC /* GCDWebServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerConnection.m; sourceTree = "<group>"; };
-		A152069919A2394A007F87BC /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
-		A152069A19A2394A007F87BC /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFunctions.m; sourceTree = "<group>"; };
-		A152069B19A2394A007F87BC /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
-		A152069C19A2394A007F87BC /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
-		A152069D19A2394A007F87BC /* GCDWebServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerRequest.h; sourceTree = "<group>"; };
-		A152069E19A2394A007F87BC /* GCDWebServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerRequest.m; sourceTree = "<group>"; };
-		A152069F19A2394A007F87BC /* GCDWebServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerResponse.h; sourceTree = "<group>"; };
-		A15206A019A2394A007F87BC /* GCDWebServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerResponse.m; sourceTree = "<group>"; };
-		A15206A219A2394A007F87BC /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataRequest.h; sourceTree = "<group>"; };
-		A15206A319A2394A007F87BC /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataRequest.m; sourceTree = "<group>"; };
-		A15206A419A2394A007F87BC /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileRequest.h; sourceTree = "<group>"; };
-		A15206A519A2394A007F87BC /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileRequest.m; sourceTree = "<group>"; };
-		A15206A619A2394A007F87BC /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
-		A15206A719A2394A007F87BC /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
-		A15206A819A2394A007F87BC /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
-		A15206A919A2394A007F87BC /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
-		A15206AB19A2394A007F87BC /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
-		A15206AC19A2394A007F87BC /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataResponse.m; sourceTree = "<group>"; };
-		A15206AD19A2394A007F87BC /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
-		A15206AE19A2394A007F87BC /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
-		A15206AF19A2394A007F87BC /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileResponse.h; sourceTree = "<group>"; };
-		A15206B019A2394A007F87BC /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileResponse.m; sourceTree = "<group>"; };
-		A15206B119A2394A007F87BC /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
-		A15206B219A2394A007F87BC /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
 		A15206C219A239F6007F87BC /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		A15206C419A239FF007F87BC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		A15206C619A23A10007F87BC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		A15206C819A23A15007F87BC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		A15206D219A243F1007F87BC /* NRNetworkInspector.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NRNetworkInspector.podspec; sourceTree = "<group>"; };
+		DCCD000603EE43C18E471EDC /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +112,7 @@
 				A15206CB19A23A32007F87BC /* libxml2.dylib in Frameworks */,
 				A15206CA19A23A2E007F87BC /* MobileCoreServices.framework in Frameworks */,
 				A10F676119A209CE00EDEA29 /* Foundation.framework in Frameworks */,
+				E9AE261BD6564C65BF952E94 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +127,7 @@
 				A10F676219A209CE00EDEA29 /* NRNetworkInspector */,
 				A10F672619A2071C00EDEA29 /* Frameworks */,
 				A10F672519A2071C00EDEA29 /* Products */,
+				DCCD000603EE43C18E471EDC /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -196,7 +159,6 @@
 		A10F672D19A2071C00EDEA29 /* NRInspector */ = {
 			isa = PBXGroup;
 			children = (
-				A15206B419A2394A007F87BC /* GCDWebServer */,
 				A10F673619A2071C00EDEA29 /* NRIAppDelegate.h */,
 				A10F673719A2071C00EDEA29 /* NRIAppDelegate.m */,
 				A10F673919A2071C00EDEA29 /* Main.storyboard */,
@@ -248,66 +210,6 @@
 			name = Categories;
 			sourceTree = "<group>";
 		};
-		A15206A119A2394A007F87BC /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				A152069519A2394A007F87BC /* GCDWebServer.h */,
-				A152069619A2394A007F87BC /* GCDWebServer.m */,
-				A152069719A2394A007F87BC /* GCDWebServerConnection.h */,
-				A152069819A2394A007F87BC /* GCDWebServerConnection.m */,
-				A152069919A2394A007F87BC /* GCDWebServerFunctions.h */,
-				A152069A19A2394A007F87BC /* GCDWebServerFunctions.m */,
-				A152069B19A2394A007F87BC /* GCDWebServerHTTPStatusCodes.h */,
-				A152069C19A2394A007F87BC /* GCDWebServerPrivate.h */,
-				A152069D19A2394A007F87BC /* GCDWebServerRequest.h */,
-				A152069E19A2394A007F87BC /* GCDWebServerRequest.m */,
-				A152069F19A2394A007F87BC /* GCDWebServerResponse.h */,
-				A15206A019A2394A007F87BC /* GCDWebServerResponse.m */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		A15206AA19A2394A007F87BC /* Requests */ = {
-			isa = PBXGroup;
-			children = (
-				A15206A219A2394A007F87BC /* GCDWebServerDataRequest.h */,
-				A15206A319A2394A007F87BC /* GCDWebServerDataRequest.m */,
-				A15206A419A2394A007F87BC /* GCDWebServerFileRequest.h */,
-				A15206A519A2394A007F87BC /* GCDWebServerFileRequest.m */,
-				A15206A619A2394A007F87BC /* GCDWebServerMultiPartFormRequest.h */,
-				A15206A719A2394A007F87BC /* GCDWebServerMultiPartFormRequest.m */,
-				A15206A819A2394A007F87BC /* GCDWebServerURLEncodedFormRequest.h */,
-				A15206A919A2394A007F87BC /* GCDWebServerURLEncodedFormRequest.m */,
-			);
-			path = Requests;
-			sourceTree = "<group>";
-		};
-		A15206B319A2394A007F87BC /* Responses */ = {
-			isa = PBXGroup;
-			children = (
-				A15206AB19A2394A007F87BC /* GCDWebServerDataResponse.h */,
-				A15206AC19A2394A007F87BC /* GCDWebServerDataResponse.m */,
-				A15206AD19A2394A007F87BC /* GCDWebServerErrorResponse.h */,
-				A15206AE19A2394A007F87BC /* GCDWebServerErrorResponse.m */,
-				A15206AF19A2394A007F87BC /* GCDWebServerFileResponse.h */,
-				A15206B019A2394A007F87BC /* GCDWebServerFileResponse.m */,
-				A15206B119A2394A007F87BC /* GCDWebServerStreamedResponse.h */,
-				A15206B219A2394A007F87BC /* GCDWebServerStreamedResponse.m */,
-			);
-			path = Responses;
-			sourceTree = "<group>";
-		};
-		A15206B419A2394A007F87BC /* GCDWebServer */ = {
-			isa = PBXGroup;
-			children = (
-				A15206A119A2394A007F87BC /* Core */,
-				A15206AA19A2394A007F87BC /* Requests */,
-				A15206B319A2394A007F87BC /* Responses */,
-			);
-			name = GCDWebServer;
-			path = ../GCDWebServer/GCDWebServer;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -333,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A10F678019A209CF00EDEA29 /* Build configuration list for PBXNativeTarget "NRNetworkInspector" */;
 			buildPhases = (
+				47D2F0E54B1E40C1B33F4D75 /* Check Pods Manifest.lock */,
 				A10F675C19A209CE00EDEA29 /* Sources */,
 				A10F675D19A209CE00EDEA29 /* Frameworks */,
 				A10F675E19A209CE00EDEA29 /* CopyFiles */,
+				16661C871B35413F8076139D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -388,6 +292,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16661C871B35413F8076139D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47D2F0E54B1E40C1B33F4D75 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A10F672019A2071C00EDEA29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -404,20 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10F676819A209CE00EDEA29 /* NRNetworkInspector.m in Sources */,
-				A15206B719A2394A007F87BC /* GCDWebServerFunctions.m in Sources */,
-				A15206BA19A2394A007F87BC /* GCDWebServerDataRequest.m in Sources */,
-				A15206C119A2394A007F87BC /* GCDWebServerStreamedResponse.m in Sources */,
-				A15206C019A2394A007F87BC /* GCDWebServerFileResponse.m in Sources */,
 				A10F678819A20C0A00EDEA29 /* NSURLConnection+NetworkInterceptor.m in Sources */,
-				A15206BD19A2394A007F87BC /* GCDWebServerURLEncodedFormRequest.m in Sources */,
-				A15206B619A2394A007F87BC /* GCDWebServerConnection.m in Sources */,
-				A15206BB19A2394A007F87BC /* GCDWebServerFileRequest.m in Sources */,
-				A15206B919A2394A007F87BC /* GCDWebServerResponse.m in Sources */,
-				A15206B819A2394A007F87BC /* GCDWebServerRequest.m in Sources */,
-				A15206BF19A2394A007F87BC /* GCDWebServerErrorResponse.m in Sources */,
-				A15206BE19A2394A007F87BC /* GCDWebServerDataResponse.m in Sources */,
-				A15206B519A2394A007F87BC /* GCDWebServer.m in Sources */,
-				A15206BC19A2394A007F87BC /* GCDWebServerMultiPartFormRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,6 +475,7 @@
 		};
 		A10F677C19A209CF00EDEA29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCCD000603EE43C18E471EDC /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/NRInspectorLib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -567,6 +492,7 @@
 		};
 		A10F677D19A209CF00EDEA29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCCD000603EE43C18E471EDC /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/NRInspectorLib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
