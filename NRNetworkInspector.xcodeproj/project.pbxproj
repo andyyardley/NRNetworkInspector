@@ -123,6 +123,7 @@
 		A15206C419A239FF007F87BC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		A15206C619A23A10007F87BC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		A15206C819A23A15007F87BC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A15206D219A243F1007F87BC /* NRNetworkInspector.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NRNetworkInspector.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +160,7 @@
 		A10F671B19A2071C00EDEA29 = {
 			isa = PBXGroup;
 			children = (
+				A15206D219A243F1007F87BC /* NRNetworkInspector.podspec */,
 				A10F672D19A2071C00EDEA29 /* NRInspector */,
 				A10F676219A209CE00EDEA29 /* NRNetworkInspector */,
 				A10F672619A2071C00EDEA29 /* Frameworks */,
