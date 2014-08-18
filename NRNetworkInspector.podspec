@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/andyyardley/NRNetworkInspector.git", :commit => "b38e57b87ad834f7193dc2645797685442520f6f", :submodules => true }
+  s.source       = { :git => "https://github.com/andyyardley/NRNetworkInspector.git", :commit => "a274fe3ed3453ae167d92d4911f6591c76a0b253", :submodules => true }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
