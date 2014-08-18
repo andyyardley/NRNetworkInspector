@@ -15,8 +15,9 @@
 
 + (instancetype)sharedInstance;
 
-- (void)addRequest:(NSDictionary *)request;
+- (void)start;
 
+- (void)addRequest:(NSDictionary *)request;
 - (NSString *)requestsAsJSON;
 
 @end

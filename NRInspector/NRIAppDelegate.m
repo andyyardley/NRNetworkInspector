@@ -7,11 +7,13 @@
 //
 
 #import "NRIAppDelegate.h"
+#import "NRNetworkInspector.h"
 
 @implementation NRIAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[NRNetworkInspector sharedInstance] start];
     return YES;
 }
 							
