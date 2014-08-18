@@ -8,6 +8,7 @@
 
 #import "NRNetworkInspector.h"
 #import "GCDWebServerDataResponse.h"
+#import "GCDWebServer.h"
 
 @implementation NRNetworkInspector
 

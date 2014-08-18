@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "NRNetworkInspector/**/*.{h,m}", "GCDWebServer/GCDWebServer/**/*.{h,m}"
+  s.source_files  = "NRNetworkInspector/**/*.{h,m}", "GCDWebServer/GCDWebServer/Core/**/*.{h,m}", "GCDWebServer/GCDWebServer/Requests/**/*.{h,m}", "GCDWebServer/GCDWebServer/Responses/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

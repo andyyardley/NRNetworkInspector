@@ -145,9 +145,10 @@ static NSString *const kNRIBody = @"body";
     
     if ([self.response isKindOfClass:[NSHTTPURLResponse class]])
     {
+        NSString *body = [[NSString alloc] initWithData:self.data encoding:NSUTF8StringEncoding];
         [responseDict addEntriesFromDictionary:@{
                                                  kNRIHeaders: [((NSHTTPURLResponse *)self.response) allHeaderFields],
-                                                 kNRIBody: [[NSString alloc] initWithData:self.data encoding:NSUTF8StringEncoding],
+                                                 kNRIBody: body ? : [NSNull null],
                                                  kNRIStatusCode: @([((NSHTTPURLResponse *)self.response) statusCode]),
                                                  }];
     }
