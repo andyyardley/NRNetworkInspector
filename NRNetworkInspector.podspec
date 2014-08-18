@@ -89,7 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "NRNetworkInspector/**/*.{h,m}", "GCDWebServer/GCDWebServer/Core/**/*.{h,m}", "GCDWebServer/GCDWebServer/Requests/**/*.{h,m}", "GCDWebServer/GCDWebServer/Responses/**/*.{h,m}"
+  s.source_files  = "NRNetworkInspector/**/*.{h,m}"
+  #, "GCDWebServer/GCDWebServer/Core/**/*.{h,m}", "GCDWebServer/GCDWebServer/Requests/**/*.{h,m}", "GCDWebServer/GCDWebServer/Responses/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -131,6 +132,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "GCDWebServer"
+  s.dependency "GCDWebServer"
 
 end
