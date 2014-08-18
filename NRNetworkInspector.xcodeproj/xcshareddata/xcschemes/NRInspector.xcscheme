@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A10F672319A2071C00EDEA29"
-               BuildableName = "NRInspector.app"
-               BlueprintName = "NRInspector"
-               ReferencedContainer = "container:NRInspector.xcodeproj">
+               BuildableName = "NRNetworkInspector.app"
+               BlueprintName = "NRNetworkInspectorDemo"
+               ReferencedContainer = "container:NRNetworkInspector.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,18 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A10F674419A2071C00EDEA29"
                BuildableName = "NRInspectorTests.xctest"
-               BlueprintName = "NRInspectorTests"
-               ReferencedContainer = "container:NRInspector.xcodeproj">
+               BlueprintName = "NRNetworkInspectorDemoTests"
+               ReferencedContainer = "container:NRNetworkInspector.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A10F676C19A209CE00EDEA29"
+               BuildableName = "NRNetworkInspectorLibTests.xctest"
+               BlueprintName = "NRNetworkInspectorTests"
+               ReferencedContainer = "container:NRNetworkInspector.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A10F672319A2071C00EDEA29"
-            BuildableName = "NRInspector.app"
-            BlueprintName = "NRInspector"
-            ReferencedContainer = "container:NRInspector.xcodeproj">
+            BuildableName = "NRNetworkInspector.app"
+            BlueprintName = "NRNetworkInspectorDemo"
+            ReferencedContainer = "container:NRNetworkInspector.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A10F672319A2071C00EDEA29"
-            BuildableName = "NRInspector.app"
-            BlueprintName = "NRInspector"
-            ReferencedContainer = "container:NRInspector.xcodeproj">
+            BuildableName = "NRNetworkInspector.app"
+            BlueprintName = "NRNetworkInspectorDemo"
+            ReferencedContainer = "container:NRNetworkInspector.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +90,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A10F672319A2071C00EDEA29"
-            BuildableName = "NRInspector.app"
-            BlueprintName = "NRInspector"
-            ReferencedContainer = "container:NRInspector.xcodeproj">
+            BuildableName = "NRNetworkInspector.app"
+            BlueprintName = "NRNetworkInspectorDemo"
+            ReferencedContainer = "container:NRNetworkInspector.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

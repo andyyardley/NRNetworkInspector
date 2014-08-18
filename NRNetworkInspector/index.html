@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    </head>
+    <body>
+        <script>
+            $(document).ready(function() {
+                $.get("http://localhost:8080/data", function(data) {
+//                    alert(data);
+//                    console.log(data);
+                    if (typeof data[0].res !== "undefined") {
+                        data[0].res.body = "";
+                        console.log(data[0].res);
+                    }
+
+
+
+                    for (idx in data) {
+                        var item = data[idx];
+                        item.res.body = "";
+                        processItem(item);
+                    }
+                });
+
+                function processItem(item)
+                {
+                    var ul = $('ul');
+                    ul.append("<li><h2>Request</h2><pre>" + JSON.stringify(item.req) + "</pre><h2>Response</h2><pre>" + JSON.stringify(item.res) + "</pre></li>");
+                }
+
+            });
+        </script>
+        <ul>
+        </ul>
+    </body>
+</html>

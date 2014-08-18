@@ -10,20 +10,63 @@
 
 @interface NRIViewController ()
 
+@property (nonatomic, strong) NSMutableData *serviceData;
+@property (nonatomic, strong) NSURLConnection *connection;
+
 @end
 
 @implementation NRIViewController
 
-- (void)viewDidLoad
+- (IBAction)click:(id)sender
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self makeNetworkCall];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)makeNetworkCall
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+	NSError *error = nil;
+    
+	NSData *data = [NSJSONSerialization dataWithJSONObject:@{} options:0 error:&error];
+    
+	NSMutableURLRequest *urlRequest = [[NSMutableURLRequest alloc] init];
+	
+	[urlRequest setValue:@"application/json; charset=utf-8" forHTTPHeaderField:@"Content-Type"];
+	[urlRequest setHTTPBody:data];
+	[urlRequest setHTTPMethod:@"POST"];
+    
+	[urlRequest setURL:[NSURL URLWithString:@"http://www.google.com/"]];
+	
+	self.serviceData = [NSMutableData data];
+    
+	self.connection = [[NSURLConnection alloc] initWithRequest:urlRequest delegate:self];
+	
+	[self.connection start];
+}
+
+#pragma mark -
+#pragma mark NSURLConnectionDataDelegate
+
+-(void)connectionDidFinishLoading:(NSURLConnection*)connection
+{
+    
+}
+
+-(void)connection:(NSURLConnection*)connection didReceiveResponse:(NSURLResponse*)response
+{
+    NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *)response;
+}
+
+-(void)connection:(NSURLConnection*)connection didReceiveData:(NSData*)data
+{
+	[self.serviceData appendData:data];
+}
+
+#pragma mark -
+#pragma mark NSURLConnectionDelegate
+
+-(void)connection:(NSURLConnection*)connection didFailWithError:(NSError*)error
+{
+    
 }
 
 @end
